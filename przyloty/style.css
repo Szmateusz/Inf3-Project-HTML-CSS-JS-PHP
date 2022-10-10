@@ -1,0 +1,64 @@
+body{
+    font-family: Arial;
+    background-color: rgb( 244, 164, 96);
+    color: white;
+}
+p{
+    font-size: 150%;
+    border: 2px dashed rgb( 169, 169, 169);
+}
+p:hover{
+    background-color: 169, 169, 169;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border:1px solid rgb(192, 192, 192);
+    padding: 5px;
+}
+
+
+
+.baner{
+    height: 150px;
+    float:left;
+}
+.footer{
+    float:left;
+}
+
+
+#baner1{
+    text-align: center;
+    width: 75%;
+    font-size: 200%;
+}
+#baner2{
+    width: 25%;
+}
+
+
+#main{
+    background-color: rgb(128, 0, 0);
+    padding: 50px;
+    text-transform: uppercase;
+}
+
+
+#footer1{
+    width: 20%;
+    padding-top: 90px;
+}
+#footer2{
+    width: 60%;
+    text-align: center;
+}
+#footer3{
+    width: 20%;
+    padding-top: 90px;
+}
+

@@ -1,0 +1,73 @@
+h2{
+	text-align:center;
+	letter-spacing:7px;
+	
+}
+img{
+	
+	width:1000px;
+	height:300px;
+}
+body{
+	background-color:Crimson;
+	font-family:Tahoma;
+}
+
+
+
+#image{
+	
+	height:200px;
+	width:auto;
+	
+}
+
+.pola{
+	height:300px;
+	background-color:WhiteSmoke;
+	float:left;
+
+	
+}
+
+#baner{
+	height:370px;
+	text-align:center;
+	color:white;
+	
+}
+#mecze{
+	height:120px;
+	text-align:center;
+	
+}
+.block{
+	color:white;
+	text-align:center;
+	width:200px;
+	margin:10px;
+	border:1px solid black;
+	border-radius:10px;
+	float:left;
+}
+.block:hover{
+	
+	border:1px solid white;
+	
+}
+#glowny{
+  background-color:WhiteSmoke;
+  height:50px;
+
+}
+#pl{
+	width:70%;
+}
+#pr{
+	
+	width:30%;
+	text-align:right;
+}
+#pr2{
+	margin-right:20px;
+}

@@ -1,0 +1,75 @@
+body{
+    font-family: Georgia;
+
+}
+
+
+img{
+    height: 100px;
+    width: auto;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+h2{
+    text-align: center;
+    background-color: #00897B;
+}
+a{
+    color:white;
+}
+
+
+
+#baner{
+    background-color: #005B4F;
+    color:white;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+}
+
+#main{
+    background-color: #E1E2E1;
+    height: 400px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+
+.footer{
+    background-color: #005B4F;
+    color:white;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    float: left;
+}
+
+.block{
+    width: 100%;
+    clear:both;
+}
+
+.zdj{
+    width: 20%;
+    float: left;
+    
+}
+
+.opis{
+    float: left;
+}
+
+.linia{
+    
+    
+    border-bottom: 1px solid grey;
+}
+
+#footers{
+    clear:both;
+    margin:0px;
+}
+
+
