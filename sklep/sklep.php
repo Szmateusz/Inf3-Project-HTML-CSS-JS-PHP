@@ -16,6 +16,7 @@
                 <h1>Internetowy sklep z eko-warzywami</h1>
             </div>
             <div class="baner" id="baner2">
+                
                 <ol>
                     <li>warzywa</li>
                     <li>owoce</li>
@@ -39,9 +40,9 @@
 
         while($row=$result->fetch_assoc()){
  
-            echo '<div class="block"';
+            echo '<div class="block">';
 
-            echo '<img src="'.$row['zdjecie'].'" alt="warzywniak"';
+            echo '<img src="'.$row['zdjecie'].'" alt="warzywniak"/>';
             echo "<h5>".$row['nazwa']."</h5>";
             echo "<p>Opis: ".$row['opis']."</p>";
             echo "<p>Na stanie: ".$row['ilosc']."</p>";
@@ -92,7 +93,7 @@
 
 ?>
 
-        <p>Stronę wykonał: Siwy</p>
+        <p>Stronę wykonał: Mateusz Szalast</p>
 
 
 

@@ -1,0 +1,30 @@
+body{
+    background-color: ghostwhite;
+}
+
+ a  {
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin:20px;
+    background-color: rgb(87, 66, 39);
+    padding: 10px;
+   
+}
+ul li:hover{
+    list-style: none;
+}
+
+a:hover{
+
+    color:red;
+    text-decoration: none;
+}
+
