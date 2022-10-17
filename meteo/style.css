@@ -1,0 +1,69 @@
+body{
+    font-family: Garamond;
+}
+
+
+
+footer{
+    background-color: rgb( 175, 238, 238);
+    padding: 10px;
+}
+
+table{
+    border: 2px dashed green;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.naglowek{
+    border: 2px dashed green;
+    border-collapse: collapse;
+    color:yellow;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+.mapa{
+    background-color: rgb(175, 238, 238);
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+#main{
+    background-color: rgb(95, 158, 160);
+    padding: 30px;
+}
+
+
+
+
+
+.baner{
+    height: 90px;
+    background-color: rgb(95, 158, 160);
+    color:yellow;
+    float: left;
+}
+
+#b1{
+
+
+    width: 20%;
+    text-align: right;
+}
+#b2{
+    width: 60%;
+    text-align: center;
+}
+#b3{
+    width: 20%;
+    text-align: right;
+}

@@ -29,6 +29,10 @@
         <li><a href="../video/video.php">Video</a></li>
         <li><a href="../sklep_inf/index.php">Sklep informatyczny</a></li>
         <li><a href="../wycieczki/wycieczki.php">Wycieczki</a></li>
+        <li><a href="../meteo/meteo.php">Pogoda</a></li>
+        <li><a href="../wedkowanie/wedkowanie.php">Wędkowanie</a></li>
+
+
 
 
 
