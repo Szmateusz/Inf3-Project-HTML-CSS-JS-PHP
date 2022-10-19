@@ -1,0 +1,43 @@
+body{
+    font-family: Garamond;
+
+}
+header{
+    background-color: rosybrown;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+footer{
+    background-color: rosybrown;
+    color:white;
+    text-align: center;
+    padding: 30px;
+}
+ol{
+    border: 2px solid rgb(205, 92, 92);
+    font-size: 150%;
+}
+
+.form{
+    background-color: darksalmon;
+    text-align: center;
+    padding: 40px;
+}
+
+.main{
+    background-color: lightsalmon;
+    height: 300px;
+    float:left;
+}
+
+#lewy{
+    width: 30%;
+}
+#srodkowy{
+    width: 40%;
+    text-align: center;
+}
+#prawy{
+    width: 30%;
+}

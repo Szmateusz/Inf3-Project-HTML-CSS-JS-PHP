@@ -31,6 +31,10 @@
         <li><a href="../wycieczki/wycieczki.php">Wycieczki</a></li>
         <li><a href="../meteo/meteo.php">Pogoda</a></li>
         <li><a href="../wedkowanie/wedkowanie.php">Wędkowanie</a></li>
+        <li><a href="../wilki/index.php">Drapieżnicy</a></li>
+        <li><a href="../atlas/index.php">Atlas</a></li>
+
+
 
 
 

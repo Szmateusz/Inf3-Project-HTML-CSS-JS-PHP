@@ -1,0 +1,49 @@
+body{
+    font-family: Helvetica;
+}
+
+header{
+    background-color: darkcyan;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+.form{
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 60px;
+
+}
+
+footer{
+    background-color: darkcyan;
+    color:white;
+    padding: 40px;
+}
+ol{
+    border:4px dashed rgb(127,255,212);
+}
+
+.glowny{
+    background-color: teal;
+    height: 350px;
+    float: left;
+}
+
+
+
+
+#lewy{
+    width: 25%;
+    color:white;
+    text-align: center;
+}
+#srodkowy{
+    width: 25%;
+    color:white;
+    text-align: center;
+
+}
+#prawy{
+    width: 50%;
+}
