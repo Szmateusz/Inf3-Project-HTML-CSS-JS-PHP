@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klub wędkowania</title>
+    <title>Klub wedkowania</title>
 
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <header>
-        <h2>Wędkuj z nami!</h2>
+        <h2>Wedkuj z nami!</h2>
 
 
     </header>
@@ -18,10 +18,10 @@
     <main>
         <div class="main" id="lewy">
             <img src="ryba2.jpg" alt="szczupak" style="height:400px"/>
-
+    
         </div>
         <div class="main" id="prawy">
-            <h3>Ryby spokojnego żeru (białe)</h3>
+            <h3>Ryby spokojnego zeru (biale)</h3>
 <?php
             $connect=mysqli_connect("localhost","root","","wedkowanie2");
 
@@ -35,7 +35,7 @@
                 $wystepowanie=$row['wystepowanie'];
 
 
-                echo "<li>$id. $nazwa, występuje w: $wystepowanie</li>";
+                echo "<li>$id. $nazwa, wystepuje w: $wystepowanie</li>";
             }
 
 ?>
@@ -51,7 +51,7 @@
     </main>
 
     <footer>
-        <p>Stronę wykonał: Mateusz Szalast</p>
+        <p>Strone wykonal:Mateusz Szalast</p>
     </footer>
     
 </body>

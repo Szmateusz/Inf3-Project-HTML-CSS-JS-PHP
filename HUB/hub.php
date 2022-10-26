@@ -33,6 +33,12 @@
         <li><a href="../wedkowanie/wedkowanie.php">Wędkowanie</a></li>
         <li><a href="../wilki/index.php">Drapieżnicy</a></li>
         <li><a href="../atlas/index.php">Atlas</a></li>
+        <li><a href="../rybki/wedkuj.php">Rybki</a></li>
+        <li><a href="../zawody/zawody.php">Zawody</a></li>
+        <li><a href="../opinie/opinie.php">Opinie</a></li>
+
+
+
 
 
 
