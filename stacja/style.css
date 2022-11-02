@@ -1,0 +1,68 @@
+body{
+    font-family: Cambria;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(120, 0, 46);
+    color: white;
+    padding: 5px;
+    font-size: 150%;
+}
+
+footer{
+    background-color: rgb(120, 0, 46);
+    color: white;
+    padding: 5px;
+    font-size: 150%;
+
+}
+
+#menu{
+    background-color: rgb(173, 20, 87);
+    text-align: left;
+}
+
+#lewy{
+    background-color: Snow;
+    color:OliveDrab;
+    width: 60%;
+    
+    text-align: left;
+}
+#prawy{
+    background-color: rgb(173, 20, 87);
+    width: 40%;
+}
+
+.main{
+    height: 322px;
+    float:left;
+    
+}
+
+img #auto{
+    margin: 40px;
+    padding: 10px;
+}
+img #auto:hover{
+    border: 1px dashed YellowGreen;
+}
+a{
+    margin: 0px 50px 0px 50px;
+    color: YellowGreen;
+}
+
+table{
+    border:1px solid OliveDrab;
+    width: 90%;
+}
+td{
+    border:1px solid OliveDrab;
+
+}
+
+#kurs{
+    text-align: center;
+    margin-left: 50px;
+}

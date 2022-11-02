@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacja paliw</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+    <script>
+
+        function Oblicz(){
+            let rodzaj=document.getElementById("numer").value;
+            let litry=document.getElementById("litry").value;
+            let kurs1=document.getElementById("kurs1").value;
+            let kurs2=document.getElementById("kurs2").value;
+
+            
+            
+
+            let wynik=0;
+            
+            switch(rodzaj){
+                case '1':
+                    wynik = litry * kurs1;
+                    break;
+                case '2':
+                     wynik = litry * kurs2;
+                    break;
+            }
+
+            document.getElementById("wynik").innerHTML="koszt paliwa:"+wynik;
+
+        }
+
+
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>Całodobowa stacja paliw</h1>
+
+    </header>
+
+    <main>
+        <section id="menu">
+            <a href="stacja.html"><img src="home.png"/></a>
+            <a href="obliczenia.html"><img src="znak.png"/></a>
+            <a href="kwerendy.txt">Pobierz dokumenty</a>
+
+
+        </section>
+
+        <section>
+
+            <div class="main" id="lewy">
+                <div class="main">
+                    <h2>Orientacyjny koszt paliwa</h2>
+
+                    <span>Rodzaj paliwa</span>
+                    <br>
+                    <select id="numer">
+                        <option value="1">Benzyna</option>
+                        <option value="2">Diesel</option>
+                    </select>
+                    <br>
+                    <span>Ile litrów?</span><br>
+                    <input type="number" id="litry"/>
+                    <br>    
+    
+                    <input type="button" value="OBLICZ" onclick="Oblicz()"/>
+    
+                    <p id="wynik"></p>
+    
+                </div>
+                <div class="main" id="kurs" >
+                    <br>
+                    <br>
+                    <br>
+                    <span> Benzyna cena:  </span> <input type="number" id="kurs1"/>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                     <span> Diesel cena:  </span> <input type="number" id="kurs2"/>
+                </div>
+                
+
+
+
+            </div>
+
+            <div class="main" id="prawy">
+                <img src="samochod.jpg" alt="samochod"/>
+
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Stronę wykonał: Mateusz Szalast</p>
+
+    </footer>
+    
+</body>
+</html>

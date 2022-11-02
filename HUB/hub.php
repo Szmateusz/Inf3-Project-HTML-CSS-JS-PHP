@@ -36,6 +36,8 @@
         <li><a href="../rybki/wedkuj.php">Rybki</a></li>
         <li><a href="../zawody/zawody.php">Zawody</a></li>
         <li><a href="../opinie/opinie.php">Opinie</a></li>
+        <li><a href="../stacja/stacja.html">Stacja</a></li>
+
 
 
 
