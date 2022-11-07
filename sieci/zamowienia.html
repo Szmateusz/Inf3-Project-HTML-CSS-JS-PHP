@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamowienia hurtowe</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+
+    <script>
+
+        function sprawdz(){
+           var a= document.getElementsByClassName("ilosc").value;
+
+           console.log();
+        }
+        
+        function update(kolumna){
+            let str="";
+            let i=prompt("Podaj nową ilość");
+
+            str="i"+kolumna;
+            console.log(str);
+            document.getElementById(str).innerHTML=i.toString();
+        }
+
+        function buy(przedmiot){
+
+            let str="";
+
+            str="p"+przedmiot;
+
+            console.log(str);
+
+            
+
+            let n = document.getElementById(str).value;
+
+            console.log(n);
+
+            alert("Zamówienie nr."+przedmiot+" Produkt: "+n);
+
+
+        }
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body onload="sprawdz()">
+
+    <header>
+        <h1>Sieci komputerowe</h1>
+
+
+
+    </header>
+
+    <main>
+        <div class="main" id="lewy">
+            <h2>Aktualizacja i zamówienia materiałów</h2>
+            <p>Do wewnętrznego użytku firmy</p>
+
+            <img src="obraz.jpg" alt="sieć komputerowa"/>
+
+        </div>
+
+        <div class="main" id="prawy">
+
+            <table>
+                <tr class="naglowek"><td>Produkt</td><td>Jednostka</td><td>Dostępna ilość</td><td>Aktualizacja</td><td>Zamówienie</td></tr>
+                <tr><td id="p1">Skrętka U/UTP drut</td><td>metr</td><td id="i1" class="ilosc">20</td><td><input type="button" value="Aktualizuj" onclick="update(1)"/></td><td><input type="button" value="Zamów" onclick="buy(1)"/></td></tr>
+                <tr><td id="p2">Skrętka U/UTP linka</td><td>metr</td><td id="i2" class="ilosc">2</td><td><input type="button" value="Aktualizuj" onclick="update(2)"/></td><td><input type="button" value="Zamów" onclick="buy(2)"/></td></tr>
+                <tr><td id="p3">Wtyki 8P8C</td><td>sztuki</td><td id="i3" class="ilosc">10</td><td><input type="button" value="Aktualizuj" onclick="update(3)"/></td><td><input type="button" value="Zamów" onclick="buy(3)"/></td></tr>
+                <tr><td id="p4">Moduły Keystone</td><td>sztuki</td><td id="i4" class="ilosc">30</td><td><input type="button" value="Aktualizuj" onclick="update(4)"/></td><td><input type="button" value="Zamów" onclick="buy(4)"/></td></tr>
+
+
+            </table>
+            
+        </div>
+
+    </main>
+
+    <footer>
+        <a href="http://sieci.pl/" target="_blank">Nasza strona internetowa</a>
+
+        <p>Stronę przygotował: Mateusz Szalast</p>
+
+    </footer>
+    
+</body>
+</html>

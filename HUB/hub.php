@@ -37,6 +37,8 @@
         <li><a href="../zawody/zawody.php">Zawody</a></li>
         <li><a href="../opinie/opinie.php">Opinie</a></li>
         <li><a href="../stacja/stacja.html">Stacja</a></li>
+        <li><a href="../sieci/zamowienia.html">Sieci komputerowe</a></li>
+
 
 
 
