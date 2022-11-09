@@ -1,0 +1,56 @@
+body{
+    font-family: serif,Garamond;
+}
+
+img{
+    width: auto;
+    height: 100px;
+}
+
+header{
+    background: linear-gradient(#97b498,#c8e6c9);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.main{
+    color:#005005;
+    height: 600px;
+    float:left;
+}
+
+#lewy{
+    background-color:#c8e6c9;
+    width: 40%;
+}
+
+#prawy{
+    width: 60%;
+    overflow: visible;
+}
+
+footer{
+    background: linear-gradient(#c8e6c9,#97b498);
+    color:white;
+    padding: 12px;
+
+}
+
+source{
+    width: 100%;
+}
+
+form{
+    padding: 10px 50px 10px 50px ;
+}
+
+input[type="submit"]{
+    background-color: #97b498;
+    color:white;
+}
+
+input[type="submit"]{
+    background-color:white;
+    color: #97b498;
+}
