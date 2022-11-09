@@ -37,14 +37,16 @@ footer{
 
 td{
     border: 1px solid DarkGreen;
-    border-collapse: collapse;
+    
     padding:20px 0px 20px 0px;
 }
 .naglowek{
-    border-collapse: inherit;
+    
 }
 
 table{
+    border: 1px solid DarkGreen;
+    border-collapse: collapse;
     margin: auto;
     width: 95%;
 }

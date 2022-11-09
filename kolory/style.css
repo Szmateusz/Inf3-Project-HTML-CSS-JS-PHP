@@ -1,0 +1,57 @@
+body{
+    font-family:sans-serif,Helvetica;
+    background-color: linen;
+    color: #222;
+    margin: auto;
+    width: 90%;
+
+}
+img{
+    height: 100px;
+    width: 500px;
+}
+
+.baner{
+    background-color: black;
+    color:white;
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+
+table{
+    margin: 40px;
+}
+
+td{
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+a{
+    color: #aaa;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 1px solid white;
+}

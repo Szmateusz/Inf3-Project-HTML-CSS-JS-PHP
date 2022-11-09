@@ -38,6 +38,8 @@
         <li><a href="../opinie/opinie.php">Opinie</a></li>
         <li><a href="../stacja/stacja.html">Stacja</a></li>
         <li><a href="../sieci/zamowienia.html">Sieci komputerowe</a></li>
+        <li><a href="../kolory/kolory.html">Kolorki</a></li>
+
 
 
 
