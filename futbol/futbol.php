@@ -9,7 +9,7 @@
 	
 </head>
 
-<body>
+<body class="customScroll">
 
 <div class="container">
 
@@ -21,7 +21,7 @@
 	  <img alt="boisko" src="obraz1.jpg">
 	</div>
 	
-	<div id="mecze">
+	<div class="customScroll" id="mecze">
 <?php
    $conn = mysqli_connect("localhost","root","","egzamin");
 
@@ -32,9 +32,18 @@
 
    $result = $conn -> query("SELECT zespol1, zespol2, wynik , data_rozgrywki FROM rozgrywka");
 
+   echo "<div class=\"line\"></div>";
+
    while($row = $result->fetch_assoc()) {
-    echo '<div class="block"<h3>' . $row["zespol1"]. " - " . $row["zespol2"].'</h3><h4>'.$row["wynik"]. "</h4><p>w dniu: ".$row["data_rozgrywki"].'</p></div>';
-  }
+	$zes1=$row["zespol1"];
+	$zes2=$row["zespol2"];
+	$wyn=$row["wynik"];
+	$data=$row["data_rozgrywki"];
+
+    echo "<div class=\"block\"<h3> $zes1 - $zes2 </h3><h4> $wyn </h4><p>w dniu: $data </p></div>";
+   }
+
+  	echo "<div class=\"line\"></div>";
 
 
   

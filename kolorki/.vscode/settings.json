@@ -1,0 +1,24 @@
+{
+    "cSpell.language": "en,pl",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#f92d44",
+        "activityBar.background": "#f92d44",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#1ed906",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#f92d44",
+        "statusBar.background": "#ec0721",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#f92d44",
+        "statusBarItem.remoteBackground": "#ec0721",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#ec0721",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#ec072199",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#ec0721"
+}

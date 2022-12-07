@@ -24,17 +24,33 @@
             console.log("Wykonano");
         }
 
+        function bar(){
 
+            
+            let a=document.getElementById("file").value;
+
+            if(a<100){
+                a+=1;
+
+                document.getElementById("file").value=a;
+
+                setTimeout(bar,100);
+            }else{
+                document.getElementById("place").innerHTML="JEBAC DISAAA";  
+            }
+
+           
+        }
 
     </script>
 </head>
 
-<body>
+<body onload="bar()">
     <header>
 
         <div class="baner" id="b1">
 
-            <h1>Pomocniaasfdsafdsa sddfsk CSS</h1>
+            <h1>Pomocnik CSS</h1>
 
         </div>
 
@@ -53,7 +69,6 @@
     </header>
 
     <main>
-
         <h2>Podaj składową H koloru w kodzie HSL</h2>
 
         <p>„0 do 30 czerwienie, do 60 żółcie, do 150 zielenie, do 250 niebieskie, do 360 fiolet i purpura</p>
@@ -61,6 +76,7 @@
         <img src="kolory.jpg" alt="Przestrzeń barw HSL"/>
 
         <br>
+
 
         <input type="number" id="pole" min="0" max="360" value="0 – 360"/>
 
@@ -75,6 +91,13 @@
 
     <footer>
         Stronę wykonał mateusz szalast
+
+        <div id="place">
+
+        </div>
+
+        <label for='file'>progress</label> <progress id='file' value='10' max='100'> 10% </progress>
+
 
     </footer>
     

@@ -11,6 +11,8 @@ img{
 body{
 	background-color:Crimson;
 	font-family:Tahoma;
+
+
 }
 
 
@@ -37,9 +39,22 @@ body{
 	
 }
 #mecze{
-	height:120px;
+	height:150px;
 	text-align:center;
+	width: 100%;
+
+	overflow-y: hidden;
+	overflow-x: scroll;
+
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	
+}
+.line{
+	border-left: 2px solid black;
+	float:left;
+	height: 100%;
 }
 .block{
 	color:white;
@@ -49,6 +64,8 @@ body{
 	border:1px solid black;
 	border-radius:10px;
 	float:left;
+
+	
 }
 .block:hover{
 	
@@ -70,4 +87,18 @@ body{
 }
 #pr2{
 	margin-right:20px;
+}
+
+
+.customScroll::-webkit-scrollbar {
+    width: 1px;
+}
+
+.customScroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+    background-color: black;
+    outline: 1px solid rgb(3, 85, 168);
 }
