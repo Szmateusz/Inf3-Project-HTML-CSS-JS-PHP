@@ -1,0 +1,5 @@
+1.SELECT DISTINCT DATA, Godzina FROM `rezerwacje`;
+2.SELECT Rzad, Miejsce from rezerwacje where Data=" 2022-08-09" and Godzina="18:00";
+3.SELECT COUNT(ID) from rezerwacje where Data=" 2022-08-09" and Godzina="18:00";
+4.SELECT rezerwacje.Rzad, rezerwacje.Miejsce,rezerwacje.Data, rezerwacje.Godzina from
+rezerwacje INNER join kasjerzy ON rezerwacje.Id_kasjera=kasjerzy.Id where kasjerzy.Imie="Jan" and kasjerzy.Nazwisko="Bednarski";
